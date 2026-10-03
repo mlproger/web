@@ -25,5 +25,6 @@ function renderCatalog() {
 
 document.addEventListener('DOMContentLoaded', () => {
   renderCatalog();
+  initCart();
   initCheckout();
 });
