@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Поплавочная удочка с поплавком">
+  <defs>
+    <linearGradient id="s2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2f7ec"/>
+      <stop offset="1" stop-color="#dceccf"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#s2)"/>
+  <!-- вода -->
+  <path d="M0 140 Q50 132 100 140 T200 140 T300 140 T400 140 V300 H0 Z" fill="#8fc7dd"/>
+  <path d="M0 175 Q50 168 100 175 T200 175 T300 175 T400 175 V300 H0 Z" fill="#6fb2cd" opacity=".6"/>
+  <!-- удилище -->
+  <path d="M35 45 Q160 70 330 118" fill="none" stroke="#8a5a33" stroke-width="6" stroke-linecap="round"/>
+  <path d="M35 45 Q52 48 68 51" fill="none" stroke="#2f2f2f" stroke-width="12" stroke-linecap="round"/>
+  <!-- леска -->
+  <path d="M330 118 L344 150" stroke="#1f2421" stroke-width="2" opacity=".55"/>
+  <!-- поплавок -->
+  <path d="M344 128 v14" stroke="#1f2421" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="344" cy="158" rx="11" ry="18" fill="#e04a3f"/>
+  <ellipse cx="344" cy="152" rx="11" ry="8" fill="#ffffff"/>
+  <path d="M344 176 v34" stroke="#1f2421" stroke-width="3" stroke-linecap="round"/>
+  <path d="M344 210 q-8 8 0 14" fill="none" stroke="#1f2421" stroke-width="3" stroke-linecap="round"/>
+  <!-- круги на воде -->
+  <ellipse cx="344" cy="150" rx="26" ry="8" fill="none" stroke="#ffffff" stroke-width="2" opacity=".7"/>
+</svg>

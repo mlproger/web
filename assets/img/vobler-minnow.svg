@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Воблер-приманка">
+  <defs>
+    <linearGradient id="s3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf4f8"/>
+      <stop offset="1" stop-color="#cde6ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#s3)"/>
+  <!-- леска к носу приманки -->
+  <path d="M400 40 Q372 78 328 130" stroke="#ffffff" stroke-width="3" fill="none" opacity=".95"/>
+  <!-- тело воблера -->
+  <path d="M110 150 Q170 100 290 128 Q330 138 336 150 Q330 168 292 182 Q175 214 110 168 Z" fill="#f0a03c"/>
+  <path d="M118 162 Q200 200 300 172 Q322 165 336 150 Q330 168 292 182 Q175 214 110 168 Z" fill="#fdf6ea"/>
+  <!-- глаз -->
+  <circle cx="306" cy="146" r="11" fill="#ffffff"/>
+  <circle cx="308" cy="147" r="6" fill="#1f2421"/>
+  <!-- плавник -->
+  <path d="M180 190 q18 26 44 20 q-14 -22 -44 -20" fill="#e08a2b"/>
+  <path d="M150 128 q16 -24 42 -18 q-12 20 -42 18" fill="#e08a2b"/>
+  <!-- крючки -->
+  <g fill="none" stroke="#455a64" stroke-width="4" stroke-linecap="round">
+    <path d="M170 200 v18 q0 14 -13 14 q-11 0 -13 -10"/>
+    <path d="M252 194 v20 q0 14 13 14 q11 0 13 -10"/>
+    <path d="M330 158 q14 4 16 18"/>
+  </g>
+</svg>

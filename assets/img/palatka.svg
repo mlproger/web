@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Рыболовная палатка">
+  <defs>
+    <linearGradient id="s12" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eef4"/>
+      <stop offset="1" stop-color="#f5e7cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#s12)"/>
+  <!-- солнце -->
+  <circle cx="330" cy="62" r="26" fill="#f0c04a"/>
+  <!-- земля -->
+  <path d="M0 244 Q100 234 200 242 T400 240 V300 H0 Z" fill="#b8c99a"/>
+  <!-- палатка -->
+  <path d="M200 70 L330 250 H70 Z" fill="#2f6b3c"/>
+  <path d="M200 70 L330 250 H200 Z" fill="#266033"/>
+  <!-- дверь -->
+  <path d="M200 250 V150 Q168 176 154 250 Z" fill="#f2ede0"/>
+  <path d="M200 250 V150 Q232 176 246 250 Z" fill="#ded7c4"/>
+  <!-- ветки-каркас -->
+  <path d="M64 254 L200 64 L336 254" stroke="#6b4a2f" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- флажок -->
+  <path d="M200 64 V34" stroke="#6b4a2f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M200 34 L236 44 L200 54 Z" fill="#e04a3f"/>
+  <!-- колышки -->
+  <path d="M96 254 l-10 14 M304 254 l10 14" stroke="#6b4a2f" stroke-width="6" stroke-linecap="round"/>
+</svg>

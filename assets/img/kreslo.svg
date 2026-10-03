@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Складное кресло">
+  <defs>
+    <linearGradient id="s11" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef3ea"/>
+      <stop offset="1" stop-color="#d6e3cd"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#s11)"/>
+  <!-- земля -->
+  <path d="M0 250 Q100 240 200 248 T400 246 V300 H0 Z" fill="#cbbf9a"/>
+  <!-- рама X -->
+  <path d="M120 80 L280 250 M280 80 L120 250" stroke="#455a64" stroke-width="11" stroke-linecap="round"/>
+  <!-- спинка -->
+  <path d="M104 74 L268 74 L252 148 L120 148 Z" fill="#2f6b3c"/>
+  <path d="M104 74 L268 74 L264 94 L108 94 Z" fill="#3f8a52"/>
+  <!-- сиденье -->
+  <path d="M118 176 L286 176 L300 232 L104 232 Z" fill="#d98a2b"/>
+  <path d="M118 176 L286 176 L289 192 L115 192 Z" fill="#e8a34e"/>
+  <!-- подлокотник -->
+  <path d="M112 140 L96 196 M292 140 L306 196" stroke="#455a64" stroke-width="9" stroke-linecap="round"/>
+  <path d="M92 142 H126 M278 142 H312" stroke="#455a64" stroke-width="9" stroke-linecap="round"/>
+  <!-- ножки -->
+  <path d="M112 248 h30 M258 248 h30" stroke="#455a64" stroke-width="10" stroke-linecap="round"/>
+</svg>

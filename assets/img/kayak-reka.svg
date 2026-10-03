@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Надувной каяк с вёслами">
+  <defs>
+    <linearGradient id="s5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7f2f7"/>
+      <stop offset="1" stop-color="#c9e3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#s5)"/>
+  <!-- вода -->
+  <path d="M0 175 Q50 166 100 175 T200 175 T300 175 T400 175 V300 H0 Z" fill="#6fb2cd"/>
+  <path d="M0 210 Q50 202 100 210 T200 210 T300 210 T400 210 V300 H0 Z" fill="#4f97b7" opacity=".7"/>
+  <!-- вёсла -->
+  <g stroke="#8a5a33" stroke-width="8" stroke-linecap="round">
+    <path d="M100 95 L300 145"/>
+    <path d="M100 145 L300 95"/>
+  </g>
+  <ellipse cx="96" cy="93" rx="18" ry="9" fill="#6b4a2f" transform="rotate(14 96 93)"/>
+  <ellipse cx="96" cy="147" rx="18" ry="9" fill="#6b4a2f" transform="rotate(-14 96 147)"/>
+  <!-- корпус каяка -->
+  <path d="M60 196 Q200 150 350 190 Q320 236 200 240 Q90 238 60 196 Z" fill="#2f6b3c"/>
+  <path d="M60 196 Q200 150 350 190 Q330 206 300 210 Q180 218 78 208 Z" fill="#3f8a52"/>
+  <!-- кокпит -->
+  <ellipse cx="205" cy="192" rx="62" ry="17" fill="#1f3f28"/>
+  <ellipse cx="205" cy="190" rx="52" ry="12" fill="#2a5535"/>
+  <!-- брызги -->
+  <path d="M70 250 q10 -10 22 0 M300 254 q10 -10 22 0" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" opacity=".8"/>
+</svg>

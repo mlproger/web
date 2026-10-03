@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Дождевик с капюшоном">
+  <defs>
+    <linearGradient id="s7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9edf1"/>
+      <stop offset="1" stop-color="#ccd6de"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#s7)"/>
+  <!-- дождь -->
+  <g stroke="#8fb8d9" stroke-width="5" stroke-linecap="round" opacity=".8">
+    <path d="M70 45 l-10 26"/>
+    <path d="M130 30 l-10 26"/>
+    <path d="M300 40 l-10 26"/>
+    <path d="M345 65 l-10 26"/>
+    <path d="M60 130 l-10 26"/>
+    <path d="M350 150 l-10 26"/>
+  </g>
+  <!-- капюшон -->
+  <path d="M150 105 Q200 55 250 105 Q235 88 200 86 Q165 88 150 105 Z" fill="#2f6b3c"/>
+  <path d="M152 104 Q200 62 248 104 Q200 92 152 104 Z" fill="#3f8a52"/>
+  <!-- плащ -->
+  <path d="M200 96 L146 128 Q120 142 118 172 L112 246 Q112 258 124 258 L276 258 Q288 258 288 246 L282 172 Q280 142 254 128 Z" fill="#2f6b3c"/>
+  <!-- застёжка -->
+  <path d="M200 100 V256" stroke="#245430" stroke-width="6"/>
+  <g fill="#d98a2b">
+    <circle cx="200" cy="140" r="7"/>
+    <circle cx="200" cy="180" r="7"/>
+    <circle cx="200" cy="220" r="7"/>
+  </g>
+  <!-- низ плаща -->
+  <path d="M112 236 H288" stroke="#245430" stroke-width="6"/>
+</svg>

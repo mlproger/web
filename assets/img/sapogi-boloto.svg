@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Резиновые сапоги">
+  <defs>
+    <linearGradient id="s8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1efe6"/>
+      <stop offset="1" stop-color="#ddd8c4"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#s8)"/>
+  <!-- лужа -->
+  <ellipse cx="205" cy="256" rx="150" ry="26" fill="#8fc7dd" opacity=".8"/>
+  <ellipse cx="205" cy="256" rx="110" ry="17" fill="#a9d8e8" opacity=".8"/>
+  <!-- задний сапог -->
+  <path d="M228 96 h64 v104 q0 12 12 20 l30 20 q12 8 12 20 v6 q0 8 -10 8 H236 q-10 0 -10 -10 Z" fill="#3f6f4a"/>
+  <rect x="222" y="86" width="76" height="26" rx="12" fill="#2f5539"/>
+  <!-- передний сапог -->
+  <path d="M104 88 h68 v112 q0 14 14 22 l34 22 q12 8 12 20 v6 q0 8 -10 8 H112 q-10 0 -10 -10 Z" fill="#2f6b3c"/>
+  <rect x="98" y="76" width="80" height="28" rx="13" fill="#245430"/>
+  <!-- манжета и подошва -->
+  <path d="M104 132 H172" stroke="#245430" stroke-width="6"/>
+  <path d="M98 256 h134 q10 0 10 -10" fill="none" stroke="#1f3f28" stroke-width="10" stroke-linecap="round"/>
+  <path d="M222 256 h96" stroke="#1f3f28" stroke-width="10" stroke-linecap="round"/>
+  <!-- брызги -->
+  <path d="M60 250 q10 -14 22 0 M318 262 q10 -12 20 0" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

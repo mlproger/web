@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Спиннинг с катушкой">
+  <defs>
+    <linearGradient id="s1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef6ec"/>
+      <stop offset="1" stop-color="#cfe6cd"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#s1)"/>
+  <!-- вода -->
+  <path d="M0 232 Q50 222 100 232 T200 232 T300 232 T400 232 V300 H0 Z" fill="#9ecfe0"/>
+  <path d="M0 252 Q50 244 100 252 T200 252 T300 252 T400 252 V300 H0 Z" fill="#7fbcd4" opacity=".7"/>
+  <!-- удилище -->
+  <path d="M70 245 Q190 215 335 75" fill="none" stroke="#7a5230" stroke-width="7" stroke-linecap="round"/>
+  <path d="M70 245 Q85 240 100 236" fill="none" stroke="#2f2f2f" stroke-width="13" stroke-linecap="round"/>
+  <!-- катушка -->
+  <circle cx="120" cy="229" r="21" fill="#37474f"/>
+  <circle cx="120" cy="229" r="9" fill="#d98a2b"/>
+  <rect x="108" y="213" width="24" height="6" rx="3" fill="#263238"/>
+  <!-- леска с приманкой -->
+  <path d="M335 75 Q354 140 324 188" fill="none" stroke="#ffffff" stroke-width="2" opacity=".85"/>
+  <ellipse cx="324" cy="195" rx="10" ry="5" fill="#e04a3f" transform="rotate(-20 324 195)"/>
+  <!-- окунь -->
+  <g>
+    <ellipse cx="175" cy="272" rx="34" ry="15" fill="#6aa84f"/>
+    <path d="M207 272 l24 -13 v26 z" fill="#6aa84f"/>
+    <path d="M156 263 h38 M154 272 h44 M156 281 h38" stroke="#3d6b2e" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+    <circle cx="152" cy="268" r="3" fill="#1f2421"/>
+  </g>
+</svg>

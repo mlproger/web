@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Спасательный жилет">
+  <defs>
+    <linearGradient id="s9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf1f5"/>
+      <stop offset="1" stop-color="#cfe0e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#s9)"/>
+  <!-- корпус жилета -->
+  <path d="M130 70 L175 62 Q200 96 225 62 L270 70 Q292 78 294 104 L300 236 Q300 254 282 254 L118 254 Q100 254 100 236 L106 104 Q108 78 130 70 Z" fill="#f0a03c"/>
+  <!-- бока -->
+  <path d="M130 70 L152 66 L146 254 L118 254 Q100 254 100 236 L106 104 Q108 78 130 70 Z" fill="#e08a2b"/>
+  <path d="M270 70 L248 66 L254 254 L282 254 Q300 254 300 236 L294 104 Q292 78 270 70 Z" fill="#e08a2b"/>
+  <!-- горловина -->
+  <path d="M175 62 Q200 96 225 62 Q214 56 200 56 Q186 56 175 62 Z" fill="#cbd5c9"/>
+  <!-- светоотражающие полосы -->
+  <rect x="104" y="150" width="192" height="16" fill="#f5f0d8"/>
+  <rect x="102" y="196" width="196" height="16" fill="#f5f0d8"/>
+  <!-- застёжка -->
+  <rect x="186" y="100" width="28" height="140" rx="6" fill="#455a64"/>
+  <rect x="190" y="130" width="20" height="12" rx="3" fill="#90a4ae"/>
+  <rect x="190" y="190" width="20" height="12" rx="3" fill="#90a4ae"/>
+</svg>
