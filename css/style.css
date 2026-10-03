@@ -211,6 +211,76 @@ a {
   gap: 24px;
 }
 
+/* Панель фильтров и сортировки */
+.catalog__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter {
+  padding: 8px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-card);
+  color: var(--color-text);
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.filter:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.filter.is-active {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.sort__label {
+  color: var(--color-text-muted);
+}
+
+.sort__select {
+  padding: 8px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-card);
+  font: inherit;
+  cursor: pointer;
+}
+
+.sort__select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.catalog__empty {
+  padding: 40px 0;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 18px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -661,6 +731,20 @@ a {
   .catalog__grid {
     grid-template-columns: 1fr;
     gap: 16px;
+  }
+
+  .catalog__toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .filters {
+    justify-content: center;
+  }
+
+  .sort {
+    justify-content: center;
   }
 
   .card__image {

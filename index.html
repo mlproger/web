@@ -40,9 +40,32 @@
     <section class="catalog" id="catalog">
       <div class="container">
         <h2 class="section-title">Каталог товаров</h2>
+
+        <div class="catalog__toolbar">
+          <div class="filters" id="filters" role="group" aria-label="Фильтр по категориям">
+            <button class="filter is-active" type="button" data-category="all" aria-pressed="true">Все</button>
+            <button class="filter" type="button" data-category="Удилища" aria-pressed="false">Удилища</button>
+            <button class="filter" type="button" data-category="Приманки" aria-pressed="false">Приманки</button>
+            <button class="filter" type="button" data-category="Лодки" aria-pressed="false">Лодки</button>
+            <button class="filter" type="button" data-category="Одежда" aria-pressed="false">Одежда</button>
+            <button class="filter" type="button" data-category="Аксессуары" aria-pressed="false">Аксессуары</button>
+          </div>
+
+          <label class="sort">
+            <span class="sort__label">Сортировка:</span>
+            <select class="sort__select" id="sortSelect">
+              <option value="default">по умолчанию</option>
+              <option value="price-asc">сначала дешевле</option>
+              <option value="price-desc">сначала дороже</option>
+              <option value="name">по названию</option>
+            </select>
+          </label>
+        </div>
+
         <div class="catalog__grid" id="catalogGrid">
           <!-- Карточки товаров рендерит js/main.js из js/products.js -->
         </div>
+        <p class="catalog__empty" id="catalogEmpty" hidden>В этой категории товаров пока нет</p>
       </div>
     </section>
 
