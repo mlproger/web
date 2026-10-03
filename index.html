@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="«Клёвый угол» — рыболовный магазин: удочки, спиннинги, приманки, лодки и одежда для рыбалки.">
+  <title>Клёвый угол — рыболовный магазин</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">🐟 Клёвый угол</a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li><a href="#catalog">Каталог</a></li>
+          <li><a href="#about">О магазине</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <button class="cart-btn" type="button" id="cartButton" aria-label="Открыть корзину">
+        Корзина <span class="cart-btn__count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Баннер -->
+    <section class="hero" aria-label="Акция">
+      <div class="container">
+        <h1 class="hero__title">Всё для рыбалки — от удилищ до лодок</h1>
+        <p class="hero__subtitle">Скидки на приманки и снасти до 30% весь сезон</p>
+      </div>
+    </section>
+
+    <!-- Каталог -->
+    <section class="catalog" id="catalog">
+      <div class="container">
+        <h2 class="section-title">Каталог товаров</h2>
+        <div class="catalog__grid" id="catalogGrid">
+          <!-- Карточки товаров рендерит js/main.js из js/products.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- О магазине -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">О магазине</h2>
+        <p>Магазин «Клёвый угол» — снасти, приманки, лодки и одежда для рыбалки. Работаем с 2015 года, доставляем по всей стране.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer class="footer" id="contacts">
+    <div class="container footer__inner">
+      <p>© 2026 «Клёвый угол»</p>
+      <p>Телефон: +7 (800) 000-00-00</p>
+    </div>
+  </footer>
+
+  <!-- Корзина -->
+  <aside class="cart" id="cartPanel" aria-label="Корзина" hidden>
+    <div class="cart__header">
+      <h2 class="cart__title">Корзина</h2>
+      <button class="cart__close" type="button" id="cartClose" aria-label="Закрыть корзину">×</button>
+    </div>
+
+    <ul class="cart__list" id="cartList">
+      <!-- Строки корзины рендерит js/cart.js -->
+    </ul>
+
+    <div class="cart__empty" id="cartEmpty">Корзина пуста</div>
+
+    <div class="cart__footer">
+      <div class="cart__total">
+        <span>Итого:</span>
+        <strong id="cartTotal">0 ₽</strong>
+      </div>
+      <button class="btn btn--primary" type="button" id="checkoutButton">Оформить заказ</button>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay" hidden></div>
+
+  <!-- Форма оформления заказа -->
+  <div class="modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle" hidden>
+    <form class="modal__form" id="checkoutForm" novalidate>
+      <div class="modal__header">
+        <h2 class="modal__title" id="checkoutTitle">Оформление заказа</h2>
+        <button class="modal__close" type="button" id="checkoutClose" aria-label="Закрыть форму">×</button>
+      </div>
+
+      <div class="modal__body">
+        <label class="field">
+          <span>Имя *</span>
+          <input type="text" name="firstName" required>
+        </label>
+
+        <label class="field">
+          <span>Фамилия *</span>
+          <input type="text" name="lastName" required>
+        </label>
+
+        <label class="field">
+          <span>Адрес доставки *</span>
+          <input type="text" name="address" required>
+        </label>
+
+        <label class="field">
+          <span>Контактный номер телефона *</span>
+          <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+        </label>
+
+        <p class="modal__success" id="orderSuccess" hidden>Заказ создан!</p>
+      </div>
+
+      <button class="btn btn--primary" type="submit">Создать заказ</button>
+    </form>
+  </div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/checkout.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
